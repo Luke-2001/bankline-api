@@ -16,7 +16,7 @@ public class CorrentistaController {
 	@Autowired
 	private CorrentistaRepository repository;
 	
-	@GetMapping
+		@GetMapping
 	public List<Correntista> findAll(){
 	return repository.findAll();	
 	}
